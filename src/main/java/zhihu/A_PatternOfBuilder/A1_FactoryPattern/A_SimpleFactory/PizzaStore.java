@@ -1,6 +1,8 @@
 package zhihu.A_PatternOfBuilder.A1_FactoryPattern.A_SimpleFactory;
 
 
+import zhihu.A_PatternOfBuilder.A1_FactoryPattern.A_SimpleFactory.dto.Pizza;
+
 /**
  * Created by Administrator on 2018/2/26/026.
  */
