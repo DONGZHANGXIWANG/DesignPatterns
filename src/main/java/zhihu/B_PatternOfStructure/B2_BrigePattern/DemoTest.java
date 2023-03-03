@@ -22,7 +22,9 @@ public class DemoTest {
     public static void main(String[] args) {
         // 点两杯加奶的大杯咖啡
         RefinedCoffee coffee = new LargeCoffee(new Milk());
+        // 先用抽象化规定的方法
         coffee.orderCoffee(2);
+        // 再执行扩展抽象化的方法
         coffee.checkQuality();
     }
 
