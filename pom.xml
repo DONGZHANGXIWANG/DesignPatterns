@@ -8,4 +8,16 @@
     <artifactId>pratice180115</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- 引入Cglib包 测试代理模式 -->
+        <!-- 使用nodep包不需要关联asm的jar包,jar包内部包含asm的类 -->
+        <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+    </dependencies>
+
+
 </project>
